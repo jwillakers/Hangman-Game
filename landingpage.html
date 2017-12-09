@@ -1,3 +1,33 @@
+<!DOCTYPE html>
+<html lang=“en-us”>
+
+<head> 
+	<title>Hangman</title>
+<!-- css -->
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!-- reset -->
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	
+</head>
+<body>
+
+<div class="container">
+	<header>
+			<h1>Hangman</h1>
+			<br>
+			<h3>Flower Power</h3>
+			<p>It's all about flowers</p>
+	</header>
+	<br>
+	<br>
+		<div class ="underscore"></div>
+		<div class="rightguess">Right guess</div>
+		<div class="wrongguess">Wrong guess</div>
+
+
+</div>
+<script type="text/javascript">
+$(document).ready(function()
 
 // create an array of words
 var flowerArray = [
@@ -61,3 +91,37 @@ else {
 });
 
 docUnderScore[0].innerHTML = generateUnderscore().join(" ");
+
+	
+</script>
+
+
+	
+</body>
+</html>
+
+
+	
+	
+
+
+
+
+
+
+	
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+

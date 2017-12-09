@@ -1,58 +1,40 @@
 <!DOCTYPE html>
-<html lang=“en-us”>
-
-<head> 
-	<title>Hangman</title>
+<html>
+<head>
+	<title>Hangman class exercise</title>
 <!-- css -->
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 <!-- reset -->
-		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	
+<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+<!-- jquerry -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
+
 <body>
+	<div class="container-fluid">
+		<h1>Hangman</h1>
+		<br>
+		<h3>Flower Power</h3>
+		<p>Press any key to get started</p>
 
-<div class="container">
-	<header>
-			<h1>Hangman</h1>
-			<br>
-			<h3>Flower Power</h3>
-			<p>It's all about flowers</p>
-	</header>
-	<br>
-	<br>
-		<div class ="underscore"></div>
-		<div class="rightguess">Right guess</div>
-		<div class="wrongguess">Wrong guess</div>
+	
+	<p>Wins</p>
+	<div class="wins">
+		<span id="totalwin"></span>
+	</div>
+	<p>Current Word</p>
+	<div id = "chosenword"></div>
+	<div class="underscore"></div>
+	<p>Number of Guesses Remaining</p>
+	<span id="guessesremaining"></span>
+	<p>Letters Already Guessed</p>
+	<span id="letterguessed"></span>
+	<input id="startover" type="button" value="Start Game"/>
 
 
 
-<script type="text/javascript" src="assets/javascript/game.js"></script>
-
+</div>
+<script type="text/javascript" src="assets/javascript/hangman_js_page.js"></script>
 </body>
-
-	
-
-	
-	
-
-
-
-
-
-
-	
-
-
-
-		
-
-
-
-
-
-
-
-
-
-
-
+</html> 
