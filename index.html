@@ -14,23 +14,30 @@
 <body>
 	<div class="container-fluid">
 		<h1>Hangman</h1>
-		<br>
 		<h3>Flower Power</h3>
-		<p>Press any key to get started</p>
-
+		<br>
+<!-- 		<p>Press any key to get started</p>
+ -->
 	
-	<p>Wins</p>
+	<!-- <p>Wins</p> -->
 	<div class="wins">
-		<span id="totalwin"></span>
+		<p>Total Wins
+			<span id="totalwin"></span>
+		</p>
+		<p>Total Losses
+		<span id = "totallosses"></span>
+		</p>
 	</div>
-	<p>Current Word</p>
-	<div id = "chosenword"></div>
-	<div class="underscore"></div>
+	
+	<div class="underscore">
+		<p>Current Word</p>
+	</div>
+
 	<p>Number of Guesses Remaining</p>
-	<span id="guessesremaining"></span>
+	<p id="guessesremaining"></p>
 	<p>Letters Already Guessed</p>
-	<span id="letterguessed"></span>
-	<input id="startover" type="button" value="Start Game"/>
+	<p id="letterguessed"></p>
+	<input id="play-again" type="button" value="Play Again"/>
 
 
 
